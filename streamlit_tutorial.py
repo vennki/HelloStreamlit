@@ -116,3 +116,10 @@ st.markdown('---')
 code = '''def hello():
     print("Hello, Streamlit!")'''
 st.code(code, language='python')
+
+################################################################################################################
+
+st.header('st.slider')
+st.markdown('---')
+st.write('The following data types are supported: int, float, date, time, and datetime.')
+
